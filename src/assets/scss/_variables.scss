@@ -1,0 +1,16 @@
+$primary-color: #181E1C;
+$secondary-color: #212944;
+$tint-color: #657485;
+$link-color: #2D77B2;
+$background-color: #FBFAF9;
+
+@media (prefers-color-scheme: dark) {
+    $primary-color: #E8EEF0;
+    $secondary-color: #7A91A4;
+    $tint-color: #657485;
+    $link-color: #2D77B2;
+    $background-color: #121825;
+}
+
+$headers-font-family: Montserrat, sans-serif;
+$primary-font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
