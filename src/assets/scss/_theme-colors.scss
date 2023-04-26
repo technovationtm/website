@@ -1,1 +1,20 @@
 // Bootstrap custom theme colors
+
+@include color-mode(dark) {
+    $primary: #E8EEF0;
+    $secondary: #7A91A4;
+    $tint-color: #657485;
+    $link-color: #2D77B2;
+    $link-hover-color-dark: #0e4e83;
+    $background-color: #121825;
+
+    --#{$prefix}body-color: #{$primary};
+    --#{$prefix}body-color-rgb: #{to-rgb($primary)};
+    --#{$prefix}body-bg: #{$background-color};
+    --#{$prefix}body-bg-rgb: #{to-rgb($background-color)};
+
+    --#{$prefix}link-color: #{$link-color};
+    --#{$prefix}link-hover-color: #{$link-hover-color-dark};
+    --#{$prefix}link-color-rgb: #{to-rgb($link-color)};
+    --#{$prefix}link-hover-color-rgb: #{to-rgb($link-hover-color-dark)};
+}

@@ -1,3 +1,30 @@
 {
-    "hello": "Hello"
+    "menu": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact Us"
+    },
+    "intro": [{
+        "caption": "We are the Turkmenistan chapter of <br/><span class=\"text-warning\">Technovation Girls</span>, the global program for girls to solve problems"
+    }],
+    "content": {
+        "about": {
+            "title": "What is Technovation Girls, mission, duration and outcome of the program",
+            "p1": "The first-ever season of Technovation Girls Turkmenistan has launched in 2021. Today more than 120 countries participate in this largest tech-entrepreneurship program. The aim of this global initiative is to impact on youth development by empowering girls to be leaders in their communities. Currently, we run our second season and already have recruited 250+ girls, 65 mentors, and 10 ambassadors across Turkmenistan. The first season's result:",
+            "l1": "two teams have progressed to the global semifinal.",
+            "l2": "alumnae are launching their own initiatives aimed at promoting STEM education among youth.",
+            "p2": "Technovation is the largest tech entrepreneurship competition for girls, where every year this program equips teams of young girls from all over the world to learn and apply the skills needed to solve real-world problems through technology. The design and implementation of their own digital projects helps strengthen their confidence, as well as digital and STEM skills.. In this free technology-based program, girls (ages 8 to 18) are working in teams (up to 5 girls in each team) with a Mentors', parents' support. They identify social and ecological issues in their community and propose a solution for the issue utilizing a group developed solution such as a mobile app or AI project.",
+            "p3": "Technovation Girls projects take about 40+ hours to complete (allocating about 12 weeks to finish) and it's completely free. The final step is the submission of the project to Technovation Global in April. The outcome of this project is that finalists are announced after online judging in July, and invited to pitch at a World Technovation Summit in front of Judges in Silicon Valley. Winners get a seed grant prize to implement their project back home! For more details you'll want to check the official Timeline for this season.",
+            "p4": "Technovation Girls Turkmenistan Regional Pitch will be held between end of April and beginning of May in Ashgabat as a big in-person event. All the teams including from regions will have an opportunity to present their projects in front of local Judges and get to practice public speaking skills to a big audience. The more impactful this event, the more girls will be inspired to join this initiative next season thus expanding the reach. Educational centers are tapped to recognize the best projects with prizes such as certificates for educational courses, training for winning girls, or offering an internship for the Mentors leading to becoming potential employees. Local and international companies are welcome to support this program by joining as one of the sponsors of organizing Pitch event.",
+            "p5": "Thank you for your interest in local community development!",
+            "p6": "For more info visit: {{- link}}"
+        },
+        "contact": {
+            "title": "Contact Us",
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Send"
+        }
+    }
 }

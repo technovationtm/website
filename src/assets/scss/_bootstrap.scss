@@ -2,12 +2,12 @@
 @import '~/normalize.css/normalize';
 
 // Bootstrap
-@import '~/bootstrap/scss/_functions';
-@import '~/bootstrap/scss/_variables';
-@import '~/bootstrap/scss/_mixins';
+@import '~/bootstrap/scss/_functions.scss';
+@import '~/bootstrap/scss/_variables.scss';
+@import '~/bootstrap/scss/_mixins.scss';
 // Custom theme colors must be included here if required
-// @import 'theme-colors';
-@import '~/bootstrap/scss/bootstrap';
+@import 'theme-colors';
+@import '~/bootstrap/scss/bootstrap.scss';
 
 // Fontawesome
 $fa-font-path: '~/@fortawesome/fontawesome-free/webfonts';
