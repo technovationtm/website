@@ -2,7 +2,7 @@ extends ../layout/default.pug
 block content
     .container-fluid.px-0
         .g-0
-            #banner(data-intro=JSON.stringify(translation.intro))
+            #banner(data-intro=JSON.stringify(translation.intro), data-prefix=prefix(''))
     .container.mb-5
         h2#about #{__('content.about.title')}
         p #{__('content.about.p1')}
@@ -18,10 +18,11 @@ block content
         h2#contact #{__('content.contact.title')}
         .contact-form.card
             .card-body
-                form(action="https://formsubmit.co/technovation.tm@gmail.com", method="POST")
+                form(action="https://formsubmit.co/b1997f0ef4403ddbcae33090be0d9f93", method="POST", target="_blank")
                     label(for="name") #{__('content.contact.name')}
                     input.form-control.mb-2(type="text", id="name", name="name", required)
                     label(for="email") #{__('content.contact.email')}
                     input.form-control.mb-4(type="text", id="email", name="email", required)
                     textarea.form-control.mb-4(rows="7", id="message", name="message", placeholder=__('content.contact.message'))
+                    input(type="hidden", name="_subject", value="Email from technovationtm.github.io/website")
                     button.form-control.btn.btn-warning(value="Submit", type="submit") #{__('content.contact.submit')}

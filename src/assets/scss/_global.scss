@@ -16,7 +16,7 @@ a {
     color: $link-color;
 
     &:hover {
-        color: var(--bs-teal);
+        color: var(--bs-link-hover-color);
         text-decoration: underline;
     }
 }
@@ -31,7 +31,7 @@ header {
     color: $link-color;
 
     &:hover {
-        color: var(--bs-teal);
+        color: var(--bs-link-hover-color);
         text-decoration: underline;
     }
 }
@@ -60,8 +60,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
+    background: var(--bs-footer-bg);
+    .social {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+        font-size: 2em;
+    }
 }

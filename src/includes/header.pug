@@ -4,7 +4,7 @@ header.sticky-top.shadow
         nav.navbar.navbar-expand-lg
             .container-fluid.g-0
                 a.navbar-brand(href="#")
-                    img.logo(src="assets/images/logo.png")
+                    img.logo(src=prefix("/assets/images/logo.png"))
                 button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#mainMenu", aria-controls="mainMenu", aria-expanded="false", aria-label="Toggle navigation menu")
                     span.navbar-toggler-icon
                 .collapse.navbar-collapse.justify-content-end#mainMenu
@@ -17,9 +17,9 @@ header.sticky-top.shadow
                             a.nav-link.text-uppercase(href="#contact") #{__('menu.contact')}
                         li.nav-item
                             .languages
-                                a.mx-2(href="/en")
-                                    img.lang-flag(src="/assets/flags/en_icon.png", alt="English language")
-                                a.mx-2(href="/ru")
-                                    img.lang-flag(src="/assets/flags/ru_icon.png", alt="Russian language")
-                                a.mx-2(href="/tm")
-                                    img.lang-flag(src="/assets/flags/tm_icon.png", alt="Turkmen language")
+                                a.mx-2(href=prefix("/en"))
+                                    img.lang-flag(src=prefix("/assets/flags/en_icon.png", alt="English language"))
+                                a.mx-2(href=prefix("/ru"))
+                                    img.lang-flag(src=prefix("/assets/flags/ru_icon.png", alt="Russian language"))
+                                a.mx-2(href=prefix("/tm"))
+                                    img.lang-flag(src=prefix("/assets/flags/tm_icon.png", alt="Turkmen language"))

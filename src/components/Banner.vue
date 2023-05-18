@@ -3,7 +3,7 @@
     <TransitionGroup name="banner-fade">
         <div v-for="(photo, i) in photos" v-show="i === current" class="banner-item" :key="`banner-item-${i}`">
             <div class="banner-image-wrap">
-                <img :src="photo.path" class="banner-image"/>
+                <img :src="`${prefix}${photo.path}`" class="banner-image"/>
             </div>
             <div class="container position-relative h-100">
                 <div v-if="i in intro" class="banner-caption">
@@ -27,6 +27,10 @@ const props = defineProps({
     intro: {
         type: Array,
         default: () => []
+    },
+    prefix: {
+        type: String,
+        default: ''
     }
 })
 const photos = [
