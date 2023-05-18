@@ -16,5 +16,4 @@ if (window.matchMedia) {
 }
 
 const bannerEl = document.querySelector("#banner");
-
-createApp(Banner, { intro: JSON.parse(bannerEl.dataset.intro) }).mount('#banner')
+createApp(Banner, { intro: JSON.parse(bannerEl.dataset.intro), prefix: bannerEl.dataset.prefix }).mount('#banner')
