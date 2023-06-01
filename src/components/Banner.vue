@@ -35,7 +35,7 @@ const props = defineProps({
 })
 const photos = [
     {
-        path: '/assets/banner/photo-1.jpg'
+        path: 'assets/banner/photo-1.jpg'
     }
 ]
 const current = ref(0)
