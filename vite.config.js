@@ -3,6 +3,8 @@ import { resolve } from 'path'
 import vue from '@vitejs/plugin-vue'
 import vitePluginPugI18n from 'vite-plugin-pug-i18n'
 
+const baseRoute = '/website/'
+
 export default defineConfig({
     resolve: {
         alias: {
@@ -29,5 +31,6 @@ export default defineConfig({
                 entryFileNames: 'assets/main-[hash].js'
             }
         }
-    }
+    },
+    base: process.env.NODE_ENV === 'production' ? baseRoute : '/'
 })
